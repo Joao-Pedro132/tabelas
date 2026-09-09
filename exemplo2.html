@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo 02 Tabelas</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center; color: red;">Almoço do SESI</h1>
+            <hr>
+        </header>
+        <main>
+            <!-- Iniciando tabela -->
+            <table border="2" style="width: 100%;">
+                <!-- titulo tabela -->
+                <caption>Comidas do SESI</caption>
+                <!-- cabecalao da tabela -->
+                <thead>
+                    <!-- primeira linha do cabecalho <tr>-->
+                    <tr>
+                        <!-- Primeira coluna do cabecalho <th> -->
+                        <th colspan="6">Dias da semana</th>
+                        <!-- colspan -> colunas -->
+                        <!-- rowspan -> linhas -->
+                    </tr>
+                    <!-- Segunda linha do cabecalho -->
+                    <tr>
+                        <th>Informações</th>
+                        <th>Segunda-Feira</th>
+                        <th>Terça-Feira</th>
+                        <th>Quarta-Feira</th>
+                        <th>Quinta-Feira</th>
+                        <th>Sexta-Feira</th>
+                    </tr>
+                </thead>
+                <!-- Corpo da tabela ou tbody -->
+                <tbody>
+                    <!-- Primeira linha do corpo da tabela -->
+                    <tr>
+                        <td rowspan="2" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgqYANf43ibFCeG3JPWSEPQUwLhRGUpQCOop8ieK-PIA&s=10') ;"><B>Informações Nutricionais</B></td>
+                        <td style="text-align: center;" colspan="5"><b>Arroz + Feijão</b></td>
+                    </tr>
+                    <!-- Segunda linha do corpo da tabela -->
+                    <tr>
+                        <td style="text-align: center;"><b>Carne</b></td>
+                        <td style="text-align: center;"><b>Coração de Frango</b></td>
+                        <td style="text-align: center;"><b>Frago</b></td>
+                        <td style="text-align: center;"><b>Ovo</b></td>
+                        <td style="text-align: center;"><b>Carne de Panela</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
